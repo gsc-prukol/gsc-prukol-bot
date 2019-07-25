@@ -25,7 +25,7 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(regexp=RE.hello)
 async def hello(message: types.Message):
-    await bot.send_message(message.chat.id, MSG.hello, disable_web_page_preview=True)
+    await bot.send_message(message.chat.id, MSG.hello, reply_to_message_id=message.message_id, disable_web_page_preview=True)
 
 
 @dp.message_handler(regexp=RE.printing)

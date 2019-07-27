@@ -4,7 +4,8 @@ class Messages:
     clinic = "Номери реєстратури: (044) 204-95-93 і (044) 204-85-62. Телефонуй їм."
     fullNameManager = 'Бушило Людмила Вікторівна'
     fullNameCastellansha = 'Білоцька Ірина Валентинівна'
-    hello = 'Hello world!'
+    helloReply = 'Hello world!'
+    helloNewMembers = 'Привіт) Вітаю в нашому неламповому чатіку'
 
 
 class Regexp:

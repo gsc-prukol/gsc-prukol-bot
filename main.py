@@ -25,7 +25,13 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(regexp=RE.hello)
 async def hello(message: types.Message):
-    await bot.send_message(message.chat.id, MSG.hello, reply_to_message_id=message.message_id, disable_web_page_preview=True)
+    await bot.send_message(message.chat.id, MSG.helloReply,
+                           reply_to_message_id=message.message_id, disable_web_page_preview=True)
+
+
+@dp.message_handler(content_types=types.message.ContentTypes.NEW_CHAT_MEMBERS)
+async def helloNewMembers(message: types.Message):
+    await bot.send_message(message.chat.id, MSG.helloNewMembers, reply_to_message_id=message.message_id)
 
 
 @dp.message_handler(regexp=RE.printing)
@@ -61,6 +67,7 @@ async def fullNameManager(message: types.Message):
     await bot.send_message(message.chat.id, MSG.firstPhrase, reply_to_message_id=message.message_id)
     await bot.send_message(message.chat.id, MSG.fullNameManager)
 
+
 async def on_startup(dp):
     await bot.set_webhook(WEBHOOK_URL)
 
@@ -68,7 +75,6 @@ async def on_startup(dp):
 async def on_shutdown(dp):
     # insert code here to run it before shutdown
     pass
-
 
 
 if __name__ == '__main__':

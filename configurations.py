@@ -1,8 +1,12 @@
 class Messages:
     firstPhrase = 'А пошук не працює?'
-    printing = "Друкують в 4-01 t.me/Froooger, t.me/Drectar, 0,75 грн/А4 (лише чб)"
+    printing = """Друкують в:
+1) 2-37 t.me/muzykaKsenia 1 грн/А4
+2) 3-04 t.me/Alkaaaaaaaa, 1 грн/А4
+3) 4-39 t.me/Baron439, 1 грн/А4
+4) 4-01 t.me/Froooger, t.me/Drectar, 0,75 грн/А4 (лише чб)"""
     clinic = "Номери реєстратури: (044) 204-95-93 і (044) 204-85-62. Телефонуй їм."
-    fullNameManager = 'Бушило Людмила Вікторівна'
+    fullNameManager = 'Олена Вікторівна (в телеграмі підписана як "Елена")'
     fullNameCastellansha = 'Білоцька Ірина Валентинівна'
     helloReply = 'Hello world!'
     helloNewMembers = 'Привіт) Вітаю в нашому неламповому чатіку'

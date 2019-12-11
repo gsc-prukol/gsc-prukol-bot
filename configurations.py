@@ -1,5 +1,5 @@
 class Messages:
-    firstPhrase = 'А пошук не працює?'
+    firstPhrase = 'А пошук не працює? @gsc_prukol'
     printing = """Друкують в:
 1) 2-37 t.me/muzykaKsenia 1 грн/А4
 2) 3-04 t.me/Alkaaaaaaaa, 1 грн/А4

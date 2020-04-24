@@ -1,0 +1,10 @@
+hello = 'hello'  # привітання
+default = 'default'  # стандартне, отже не розпізналось
+printing = 'print'  # друк, просто друк
+moment_print = 'moment_print'  # терміновий друк, друк, коли бот не повинен відпвідати стандартною фразою
+zava_name = 'zava_name'  # ім'я заідуючої
+weave = 'weave'  # сотка Вадік, верни сотку
+mail_index = 'mail'  # який поштовий індекс гуртожитку
+clinic = 'clinic'  # номер поліклініки або її розклад
+schedule = 'schedule'  # розклад роботи зави/кастелянши
+hot_water = 'hot_water'  # гаряча вода

@@ -1,2 +1,4 @@
 aiogram
 aiohttp
+grpcio==1.11.0
+dialogflow==0.5.1

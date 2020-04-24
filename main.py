@@ -6,6 +6,7 @@ import os
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.utils.executor import start_webhook
 from configurations import Messages as MSG, Regexp as RE
+import diaologFlowAPI
 
 TOKEN = os.environ['TOKEN']
 

@@ -7,7 +7,7 @@ from aiogram import Bot, Dispatcher, executor, types
 from aiogram.utils.executor import start_webhook
 from configurations import Messages as MSG, Regexp as RE
 
-TOKEN = os.environ['TOKEN']
+TOKEN = '818496774:AAGxdANZPHsughlgRtJRl1UCdRMbLhR-4PQ'
 
 
 WEBHOOK_HOST = 'https://gsc-prukol-bot.herokuapp.com'  # name your app

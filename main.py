@@ -40,26 +40,10 @@ async def prints(message: types.Message):
     await bot.send_message(message.chat.id, MSG.printing, disable_web_page_preview=True)
 
 
-@dp.message_handler(regexp=RE.clinic)
-async def clinic(message: types.Message):
-    await bot.send_message(message.chat.id, MSG.firstPhrase, reply_to_message_id=message.message_id)
-    await bot.send_message(message.chat.id, MSG.clinic)
-
-
 @dp.message_handler(regexp=RE.numberManager)
 async def numberManager(message: types.Message):
     await bot.send_message(message.chat.id, MSG.firstPhrase, reply_to_message_id=message.message_id)
-
-
-@dp.message_handler(regexp=RE.numberTA)
-async def numberTA(message: types.Message):
-    await bot.send_message(message.chat.id, MSG.firstPhrase, reply_to_message_id=message.message_id)
-
-
-@dp.message_handler(regexp=RE.fullNameCastellansha)
-async def fullNameCastellansha(message: types.Message):
-    await bot.send_message(message.chat.id, MSG.firstPhrase, reply_to_message_id=message.message_id)
-    await bot.send_message(message.chat.id, MSG.fullNameCastellansha)
+    await bot.send_message(message.chat.id, MSG.fullNameManager)
 
 
 @dp.message_handler(regexp=RE.fullNameManager)

@@ -1,6 +1,6 @@
 class Messages:
     firstPhrase = 'А пошук не працює? @gsc_prukol'
-    printing = """Друкує @Evgennyy 3-19"""
+    printing = """Друкує t.me/Evgennyy 3-19"""
     fullNameManager = 'Олена Вікторівна (в телеграмі підписана як "Елена")'
     helloReply = 'Hello world!'
     helloNewMembers = 'Привіт) Вітаю в нашому неламповому чатіку'

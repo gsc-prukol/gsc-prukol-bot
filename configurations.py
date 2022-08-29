@@ -4,6 +4,7 @@ class Messages:
     fullNameManager = 'Олена Вікторівна (в телеграмі підписана як "Елена")'
     helloReply = 'Hello world!'
     helloNewMembers = 'Привіт) Вітаю в нашому неламповому чатіку'
+    fishing = '@rostichek тобі клієнт'
 
 
 class Regexp:
@@ -14,3 +15,4 @@ class Regexp:
     fullNameManager = "(яке?|как) (звати|звуть|ім'я|имя|фио)( (в|у))? зав(у|(і|е)дую\w{0,4})"
     fullNameCastellansha = "(яке?|как) (звати|звуть|ім'я|имя|фио)( (в|у))? кастелянш(у|и|ы)"
     hello = '(прив(і|е)т|ха(й|юшк(и|і))?|(з)?д(а|о)рова?),? бот'
+    fishing = 'https.{3,20}\\.yu-pay\\.me\\/.?personal\\/'

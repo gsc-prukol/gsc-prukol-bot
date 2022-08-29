@@ -51,7 +51,12 @@ async def fullNameManager(message: types.Message):
     await bot.send_message(message.chat.id, MSG.firstPhrase, reply_to_message_id=message.message_id)
     await bot.send_message(message.chat.id, MSG.fullNameManager)
 
+    
+@dp.message_handler(regexp=RE.fishing)
+async def fullNameManager(message: types.Message):
+    await bot.send_message(message.chat.id, MSG.fishing, reply_to_message_id=message.message_id)
 
+    
 async def on_startup(dp):
     await bot.set_webhook(WEBHOOK_URL)
 

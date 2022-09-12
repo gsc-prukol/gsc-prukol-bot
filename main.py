@@ -29,9 +29,9 @@ async def hello(message: types.Message):
                            reply_to_message_id=message.message_id, disable_web_page_preview=True)
 
 
-@dp.message_handler(content_types=types.message.ContentTypes.NEW_CHAT_MEMBERS)
-async def helloNewMembers(message: types.Message):
-    await bot.send_message(message.chat.id, MSG.helloNewMembers, reply_to_message_id=message.message_id)
+# @dp.message_handler(content_types=types.message.ContentTypes.NEW_CHAT_MEMBERS)
+# async def helloNewMembers(message: types.Message):
+#     await bot.send_message(message.chat.id, MSG.helloNewMembers, reply_to_message_id=message.message_id)
 
 
 @dp.message_handler(regexp=RE.printing)
